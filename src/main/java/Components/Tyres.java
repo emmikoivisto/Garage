@@ -10,4 +10,19 @@ public class Tyres {
         this.tyreSize = tyreSize;
     }
 
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public String getTyreSize() {
+        return tyreSize;
+    }
+
+    public void setTyreSize(String tyreSize) {
+        this.tyreSize = tyreSize;
+    }
 }
