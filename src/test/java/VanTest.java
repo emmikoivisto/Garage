@@ -19,25 +19,25 @@ public class VanTest {
         tyres2 = new Tyres("Racing", "4");
         engine1 = new FuelEngine("400");
         engine2 = new FuelEngine("600");
-        van = new Van(tyres1, engine1);
+        van = new Van("Audi", "green", 20000, 3, tyres1, engine1);
     }
 
     @Test
     public void canGetTyres(){
         assertEquals(tyres1, van.getTyres());
     }
-    
+
     @Test
     public void canSetTyres(){
         van.setTyres(tyres2);
         assertEquals(tyres2, van.getTyres());
     }
-    
+
     @Test
     public void canGetEngine(){
         assertEquals(engine1, van.getEngine());
     }
-    
+
     @Test
     public void canSetEngine(){
         van.setEngine(engine2);

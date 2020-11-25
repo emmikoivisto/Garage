@@ -19,7 +19,7 @@ public class ElectricCarTest {
         tyres2 = new Tyres("Racing", "4");
         electricEngine1 = new ElectricEngine("400", "500");
         electricEngine2 = new ElectricEngine("900", "1500");
-        electricCar = new ElectricCar(tyres1, electricEngine1);
+        electricCar = new ElectricCar("Honda", "Green", 30000, 5, tyres1, electricEngine1);
     }
 
     @Test

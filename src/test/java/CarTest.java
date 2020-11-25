@@ -19,7 +19,7 @@ public class CarTest {
         tyres2 = new Tyres("Racing", "4");
         engine1 = new FuelEngine("400");
         engine2 = new FuelEngine("600");
-        car = new Car(tyres1, engine1);
+        car = new Car("Ford", "blue", 15000, 5, tyres1, engine1);
     }
 
     @Test

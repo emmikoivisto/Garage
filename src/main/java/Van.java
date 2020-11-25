@@ -1,12 +1,13 @@
 import Components.Tyres;
 import Components.FuelEngine;
 
-public class Van {
+public class Van extends Vehicle{
 
     private Tyres tyres;
     private FuelEngine fuelEngine;
 
-    public Van(Tyres tyres, FuelEngine fuelEngine) {
+    public Van(String model, String color, int price, int capacity, Tyres tyres, FuelEngine fuelEngine) {
+        super(model, color, price, capacity);
         this.tyres = tyres;
         this.fuelEngine = fuelEngine;
     }
