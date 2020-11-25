@@ -5,9 +5,9 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class CarTest {
+public class VanTest {
 
-    Car car;
+    Van van;
     Tyres tyres1;
     Tyres tyres2;
     FuelEngine engine1;
@@ -19,28 +19,28 @@ public class CarTest {
         tyres2 = new Tyres("Racing", "4");
         engine1 = new FuelEngine("400");
         engine2 = new FuelEngine("600");
-        car = new Car(tyres1, engine1);
+        van = new Van(tyres1, engine1);
     }
 
     @Test
     public void canGetTyres(){
-        assertEquals(tyres1, car.getTyres());
+        assertEquals(tyres1, van.getTyres());
     }
     
     @Test
     public void canSetTyres(){
-        car.setTyres(tyres2);
-        assertEquals(tyres2, car.getTyres());
+        van.setTyres(tyres2);
+        assertEquals(tyres2, van.getTyres());
     }
     
     @Test
     public void canGetEngine(){
-        assertEquals(engine1, car.getEngine());
+        assertEquals(engine1, van.getEngine());
     }
     
     @Test
     public void canSetEngine(){
-        car.setEngine(engine2);
-        assertEquals(engine2, car.getEngine());
+        van.setEngine(engine2);
+        assertEquals(engine2, van.getEngine());
     }
 }

@@ -12,4 +12,19 @@ public class ElectricCar {
     }
 
 
+    public Tyres getTyres() {
+        return tyres;
+    }
+
+    public void setTyres(Tyres newTyres) {
+        this.tyres = newTyres;
+    }
+
+    public ElectricEngine getElectricEngine() {
+        return electricEngine;
+    }
+
+    public void setElectricEngine(ElectricEngine newElectricEngine) {
+        this.electricEngine = newElectricEngine;
+    }
 }
