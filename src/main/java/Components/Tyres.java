@@ -3,11 +3,11 @@ package Components;
 public class Tyres {
 
     private String type;
-    private String size;
+    private String tyreSize;
 
-    public Tyres(String type, String size){
+    public Tyres(String type, String tyreSize){
         this.type = type;
-        this.size = size;
-    };
+        this.tyreSize = tyreSize;
+    }
 
 }
